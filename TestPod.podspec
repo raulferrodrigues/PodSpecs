@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
     spec.platform = :ios
     spec.ios.deployment_target = "12.0"
-    spec.source = { :git => "https://github.com/raulferrodrigues/TestPod.git", :tag => "1.0" }
+    spec.source = { :git => "https://github.com/raulferrodrigues/TestPod.git", :tag => "#{spec.version}" }
 
     spec.source_files = "TestPod/**/*.{swift}"
 
